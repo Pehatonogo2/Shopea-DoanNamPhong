@@ -1,0 +1,36 @@
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_row{
+    display: flex; 
+    margin-left:  -5 px;
+    margin-right: -5 px;
+}
+.grid_column-2{
+    padding-left:  5 px;
+    padding-right: 5 px;
+    width: 16.6667%;
+
+}
+
+.grid_column-10{
+    padding-left:  5 px;
+    padding-right: 5 px;
+    width: 83.3334%;
+}
+.grid_column-2-4{
+    padding-left:  5 px;
+    padding-right: 5 px;
+    width: 20%;
+   
+    
+}
+
+.home-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+

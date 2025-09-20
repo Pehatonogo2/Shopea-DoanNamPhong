@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:  #e6a2c1;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    background-color: #f0c0dd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 200px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.shop-button{
+    margin-top: 20px ;
+    background-color: #f0c0dd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    display: inline-block;
+    padding: 5px 10px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+    
+
+.shop-button:hover{
+background-color: #a5156c;
+color: beige;
+
+}
